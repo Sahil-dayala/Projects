@@ -1,0 +1,286 @@
+/* Tablet Screen */
+
+@media (min-width:768px) and (max-width:1024px) {
+    header .logo .contact {
+        display: inline-block;
+    }
+    .logo {
+        padding: 0 15px;
+    }
+    body {
+        padding-top: 98px;
+    }
+    .findcar {
+        width: 700px;
+        padding: 25px;
+    }
+    .services {
+        padding: 20px 15px 0 15px;
+    }
+    .items {
+        width: 33.3333%;
+    }
+    .salecar {
+        width: 40%;
+    }
+    .about3b {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .links {
+        width: 50%;
+        padding-left: 133px;
+    }
+    .latestnews {
+        width: 50%;
+        padding-top: 30px;
+    }
+    .news1 {
+        width: auto;
+    }
+    .f-contact {
+        width: 50%;
+        padding: 30px 0 15px 133px;
+    }
+    .info {
+        width: 50%;
+        padding-left: 20px;
+    }
+    .map {
+        width: 50%;
+    }
+    .banner img {
+        padding: 0 0 15px 0;
+    }
+    h4.contact-h4 {
+        padding-left: 20px;
+    }
+    header button {
+        display: block;
+    }
+    header {
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+    }
+    header .logo {
+        padding: 0 15px;
+    }
+    header .navigation {
+        width: 100%;
+        position: fixed;
+        transform: translateX(-100%);
+        transition: all 0.5s;
+        z-index: 9998;
+    }
+    .show header .navigation {
+        transform: translateX(0);
+    }
+    header .navigation ul {
+        display: block;
+    }
+    header .navigation .nav {
+        justify-content: center;
+    }
+    header .navigation ul li {
+        padding: 10px 0;
+        text-align: center;
+    }
+    header .navigation ul li a {
+        padding: 10px 8px;
+    }
+}
+
+
+/* Mobile Screen */
+
+@media (max-width:767px) {
+    body {
+        font-size: 14px;
+        padding-top: 98px;
+    }
+    header .logo .contact,
+    header .social-icon {
+        display: none;
+    }
+    .items {
+        width: 100%;
+    }
+    .services {
+        padding: 20px 10px 0 10px;
+    }
+    .findcar {
+        max-width: 350px;
+        padding: 30px;
+    }
+    .findcar h2 {
+        font-size: 20px;
+        padding: 0 0 20px 0;
+    }
+    .findcar form {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+    }
+    .newsletter h1 {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .newsletter form {
+        width: 100%;
+        text-align: center;
+    }
+    .newsletter form input {
+        margin-bottom: 10px;
+        padding: 3px;
+    }
+    .about3b {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .links {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .latestnews {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .news1 {
+        width: auto;
+    }
+    .news2 {
+        width: 50%;
+    }
+    .f-contact {
+        width: 100%;
+        padding: 0 15px 30px 15px;
+    }
+    .f-contact form input,
+    .f-contact form textarea {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .info p {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .map {
+        width: 100%;
+        padding: 0 15px;
+        margin-left: 0;
+    }
+    .map h2 {
+        text-align: center;
+    }
+    h4.contact-h4 {
+        padding-left: 10px;
+    }
+    .banner img {
+        padding-top: 0;
+    }
+    .info100 {
+        padding: 0 15px;
+    }
+    span.info-f {
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-f input {
+        width: 100%;
+        max-width: 100%;
+    }
+    .info-f input:first-child {
+        margin-right: 0;
+    }
+    .info100 form>input {
+        max-width: 100%;
+    }
+    .info100 form textarea {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    header button {
+        display: block;
+    }
+    header {
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+    }
+    header .logo {
+        padding: 0 15px;
+    }
+    header .navigation {
+        width: 100%;
+        position: fixed;
+        transform: translateX(-100%);
+        transition: all 0.5s;
+        z-index: 9998;
+    }
+    .show header .navigation {
+        transform: translateX(0);
+    }
+    header .navigation ul {
+        display: block;
+    }
+    header .navigation .nav {
+        justify-content: center;
+    }
+    header .navigation ul li {
+        padding: 10px 0;
+        text-align: center;
+    }
+    header .navigation ul li a {
+        padding: 10px 8px;
+    }
+}
+
+
+/* Mobile and Tablet Screen */
+
+@media (max-width:1024px) {
+    .slider {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .car-image {
+        display: flex;
+        justify-content: center;
+    }
+    .about1 {
+        width: 100%;
+        padding: 0 25px;
+    }
+    .about2 {
+        width: 100%;
+        padding: 0 25px;
+        margin: 0;
+    }
+    form.info {
+        width: 100%;
+    }
+    form.info input,
+    form.info textarea {
+        width: 100%;
+    }
+    .salecar {
+        width: 100%;
+        margin: 0 20px;
+    }
+    .t-slider {
+        padding-top: 30px;
+    }
+}
